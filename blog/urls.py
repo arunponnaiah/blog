@@ -8,5 +8,6 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^djangoblog/create', 'djangoblog.views.create'),
-    url(r'^djangoblog/update','djangoblog.views.update')
+    url(r'^djangoblog/update','djangoblog.views.update'),
+    url(r'^djangoblog/retrieve','djangoblog.views.retrieve')
 )
