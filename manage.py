@@ -1,3 +1,4 @@
+#!/usr/bin/env python manage.py runserver
 import os
 import sys
 
