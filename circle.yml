@@ -1,5 +1,5 @@
 deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: mydjangoblog
+  production:
+    branch: production
+    commands:
+      - git push git@heroku.com:mydjangoblog.git $CIRCLE_SHA1:refs/heads/master
