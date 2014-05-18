@@ -49,7 +49,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-TEMPLATE_DIRS=('/Users/arunponnaiah/workspace/blog/templates')
+TEMPLATE_DIRS=('/Users/arun/workspace/blog/templates')
 
 ROOT_URLCONF = 'blog.urls'
 
