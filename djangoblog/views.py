@@ -11,6 +11,3 @@ def update(request):
     journal = Journal(title=l_title,content=l_content)
     journal.save()
     return render(request,"create.html")
-
-def retrieve(request):
-    Journal.
